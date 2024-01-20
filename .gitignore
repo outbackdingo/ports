@@ -17,4 +17,5 @@ venomlinux-rootfs*.tar.xz.md5
 *.iso
 *.iso.md5
 *.iso.sha256sum
+*.iso.sha512sum
 */*/.*.swp
