@@ -8,6 +8,9 @@ export XDG_RUNTIME_DIR=$(mktemp -d /tmp/$(id -u)-runtime-dir.XXX)
 # Autorun X11/Wayland session in TTY1
 if [ -z "$DISPLAY" ] && [ "$(tty)" = "/dev/tty1" ]; then
 scratch isinstalled seatd && exec seatd-launch dbus-run-session Hyprland
-scratch isinstalled xinit && exec startx                                                                           
+scratch isinstalled xinit && exec startx
 fi
 
+#if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
+#       Hyprland 
+#fi
