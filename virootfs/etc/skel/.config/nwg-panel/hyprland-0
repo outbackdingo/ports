@@ -48,12 +48,12 @@
           "cmd": "azote"
         },
         {
-          "name": "Look settings",
+          "name": "GTK settings",
           "icon": "nwg-look",
           "cmd": "nwg-look"
         },
         {
-          "name": "Displays settings",
+          "name": "Displays",
           "icon": "nwg-displays",
           "cmd": "nwg-displays"
         },
@@ -73,15 +73,15 @@
         "icon": "system-shutdown-symbolic",
         "items": [
           {
-            "name": "Lock screen",
+            "name": "Lock",
             "cmd": "nwg-lock"
           },
           {
-            "name": "Exit compositor",
+            "name": "Exit Hyprland session",
             "cmd": "hyprctl dispatch exit"
           },
           {
-            "name": "Reboot",
+            "name": "Restart",
             "cmd": "systemctl reboot"
           },
           {

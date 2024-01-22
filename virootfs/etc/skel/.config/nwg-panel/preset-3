@@ -81,11 +81,11 @@
           },
           {
             "name": "Restart",
-            "cmd": "sudo shutdown -r now"
+            "cmd": "systemctl reboot"
           },
           {
             "name": "Shutdown",
-            "cmd": "sudo shutdown -h now"
+            "cmd": "systemctl -i poweroff"
           }
         ]
       },
@@ -139,25 +139,7 @@
       "icon-size": 20
     },
     "menu-start": "off",
-    "menu-start-settings": {
-      "cmd-lock": "swaylock -f -c 000000",
-      "cmd-logout": "swaymsg exit",
-      "cmd-restart": "sudo shutdown -r now",
-      "cmd-shutdown": "sudo shutdown -h now",
-      "autohide": true,
-      "file-manager": "thunar",
-      "height": 0,
-      "icon-size-large": 32,
-      "icon-size-small": 16,
-      "icon-size-button": 16,
-      "margin-bottom": 0,
-      "margin-left": 0,
-      "margin-right": 0,
-      "margin-top": 0,
-      "padding": 2,
-      "terminal": "foot",
-      "width": 0
-    },
+    "menu-start-settings": {},
     "playerctl": {},
     "sway-taskbar": {},
     "dwl-tags": {},
@@ -204,7 +186,6 @@
       "angle": 0.0
     },
     "hyprland-taskbar": {},
-    "hyprland-workspaces": {},
-    "start-hidden": false
+    "hyprland-workspaces": {}
   }
 ]

@@ -63,12 +63,12 @@
           "cmd": "azote"
         },
         {
-          "name": "Look settings",
+          "name": "GTK settings",
           "icon": "nwg-look",
           "cmd": "nwg-look"
         },
         {
-          "name": "Displays settings",
+          "name": "Displays",
           "icon": "nwg-displays",
           "cmd": "nwg-displays"
         },
@@ -88,20 +88,20 @@
         "icon": "system-shutdown-symbolic",
         "items": [
           {
-            "name": "Lock screen",
+            "name": "Lock",
             "cmd": "nwg-lock"
           },
           {
-            "name": "Exit compositor",
+            "name": "Exit sway session",
             "cmd": "swaymsg exit"
           },
           {
-            "name": "Reboot",
-            "cmd": "sudo shutdown -r now"
+            "name": "Restart",
+            "cmd": "systemctl reboot"
           },
           {
             "name": "Shutdown",
-            "cmd": "sudo shutdown -h now"
+            "cmd": "systemctl -i poweroff"
           }
         ]
       },
@@ -144,8 +144,8 @@
     "menu-start-settings": {
       "cmd-lock": "swaylock -f -c 000000",
       "cmd-logout": "swaymsg exit",
-      "cmd-restart": "sudo shutdown -r now",
-      "cmd-shutdown": "sudo shutdown -h now",
+      "cmd-restart": "systemctl reboot",
+      "cmd-shutdown": "systemctl -i poweroff",
       "autohide": true,
       "file-manager": "thunar",
       "height": 0,
@@ -231,7 +231,6 @@
       "icon-size": 16,
       "angle": 0.0
     },
-    "hyprland-workspaces": {},
-    "start-hidden": false
+    "hyprland-workspaces": {}
   }
 ]
