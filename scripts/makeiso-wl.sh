@@ -24,8 +24,8 @@ ROOTFS="$PWD/rootfs"
 
 MUST_PKG="wpa_supplicant os-prober grub"
 WAYLAND_PKG="xcb-util-cursor xcb-util-keysyms libxfont2 libxcvt libtirpc xwayland"
-MAIN_PKG="sudo zsh alsa-utils dosfstools mtools gvfs fastfetch nnn hyprland kitty alacritty wofi rofi htop wireplumber pipewire fzy thunar"
-SWAY_PKG="waybar"
+MAIN_PKG="sudo zsh alsa-utils dosfstools mtools gvfs fastfetch waybar foot wofi rofi alacritty nnn irssi htop wireplumber pipewire fzy thunar hyprland hyprshot vivaldi-stable firefox libsoup slack-desktop telegram-desktop"
+SWAY_PKG="nwg-shell"
 THEME_PKG="osx-arc-theme ttf-mononoki"
 
 RELEASE=$(cat $PORTSDIR/current-release)
