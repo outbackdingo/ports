@@ -1,4 +1,4 @@
-nwg-panel-0.9.19-1
+nwg-panel-0.9.21-1
 drwxr-xr-x root/root    usr/
 drwxr-xr-x root/root    usr/bin/
 -rwxr-xr-x root/root    usr/bin/nwg-dwl-interface
@@ -8,13 +8,13 @@ drwxr-xr-x root/root    usr/bin/
 drwxr-xr-x root/root    usr/lib/
 drwxr-xr-x root/root    usr/lib/python3.11/
 drwxr-xr-x root/root    usr/lib/python3.11/site-packages/
-drwxr-xr-x root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/PKG-INFO
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/SOURCES.txt
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/dependency_links.txt
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/entry_points.txt
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/requires.txt
--rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.19-py3.11.egg-info/top_level.txt
+drwxr-xr-x root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/PKG-INFO
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/SOURCES.txt
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/dependency_links.txt
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/entry_points.txt
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/requires.txt
+-rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel-0.9.21-py3.11.egg-info/top_level.txt
 drwxr-xr-x root/root    usr/lib/python3.11/site-packages/nwg_panel/
 -rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/__about__.py
 -rw-r--r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/__init__.py
@@ -135,6 +135,7 @@ drwxr-xr-x root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/media-skip-forward-symbolic.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/mode.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/music.svg
+-rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/nwg-clipman.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/nwg-displays.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/nwg-look.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_dark/nwg-panel.svg
@@ -220,6 +221,7 @@ drwxr-xr-x root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/media-skip-forward-symbolic.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/mode.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/music.svg
+-rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/nwg-clipman.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/nwg-displays.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/nwg-look.svg
 -rw-rw-r-- root/root    usr/lib/python3.11/site-packages/nwg_panel/icons_light/nwg-panel.svg
